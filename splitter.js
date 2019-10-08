@@ -37,7 +37,7 @@ function makenewVideo(row) {
     var endTimeSeconds = toSeconds(row['Video End Time'])
 
 
-    console.log(row)
+
     var currentVideo = `${VideoFolders}/${row['Topic']}/${row['Subtopic']}`
 
 
@@ -49,13 +49,13 @@ function makenewVideo(row) {
       } else {
         if (runFfmpeg){
         var outFile=  `${currentVideo}/${row['Filename']}.mp4`.replace(" ","\ ")
-        const ffmpeg = spawn('ffmpeg', ['-i', `${fileName}`,'-ss', `${startTimeSeconds}`, '-to', `${endTimeSeconds}`, outFile]);
+        const ffmpeg = spawn('ffmpeg', ['-y','-i', `${fileName}`,'-ss', `${startTimeSeconds}`, '-to', `${endTimeSeconds}`,'-codec','copy' ,outFile]);
         ffmpeg.stdout.on('data', (data) => {
           console.log(`stdout: ${data}`);
         });
 
         ffmpeg.stderr.on('data', (data) => {
-          console.log(`stderr: ${data}`);
+        console.log(`stderr: ${data}`);
         });
 
         ffmpeg.on('close', (code) => {
