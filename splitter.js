@@ -37,10 +37,15 @@ function makenewVideo(row) {
 
   fileName= `Lecture${videoNumber.padStart(2, '0')}.mp4`
 //row['Topic'], row['Subtopic'],row['Filename'], row['Video Start Time'],  row['Video End Time']
-
-
+  console.log(row)
+    var recompress=['-codec','copy'];;
     var startTimeSeconds = toSeconds(row['Video Start Time'])
     var endTimeSeconds = toSeconds(row['Video End Time'])
+    if(row['recompress']) {
+      recompress =['-vcodec','libx264'];
+      console.log("recompressing",...recompress)
+    }
+
 
 
 
@@ -55,9 +60,9 @@ function makenewVideo(row) {
       } else {
         if (runFfmpeg){
         var outFile=  `${currentVideo}/${row['Filename']}.mp4`.replace(" ","\ ")
-        const ffmpeg = spawn('ffmpeg', ['-y','-i', `${SourceLectures}/${fileName}`,'-ss', `${startTimeSeconds}`, '-to', `${endTimeSeconds}`,'-codec','copy' ,outFile]);
+        const ffmpeg = spawn('ffmpeg', ['-y','-i', `${SourceLectures}/${fileName}`,'-ss', `${startTimeSeconds}`, '-to', `${endTimeSeconds}`,...recompress ,outFile]);
         ffmpeg.stdout.on('data', (data) => {
-          console.log(`stdout: ${data}`);
+        //  console.log(`stdout: ${data}`);
         });
 
         ffmpeg.stderr.on('data', (data) => {
