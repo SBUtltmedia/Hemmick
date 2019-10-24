@@ -1,5 +1,6 @@
 Topic,Subtopic,Filename,recompress,Video Start Time,Video End Time
-Opening Videos,,Camera Obscura in a Uhaul,,0:00,1:01
+Opening Videos,,Camera Obscura in a Uhaul,,0:00,1:02
 Exam Info,Midterm 1,Again-Info on Midterm 1,,1:04,4:12
 Energy and Momentum,,Speeding Up and Slowing Down,,4:12,21:18
-Energy and Momentum,,Deriving Work,,21:18
+Energy and Momentum,,Deriving Work,true,21:18,45:18.5
+Energy and Momentum,,Work in a Projectile Motion Problem,true,45:18.5,51:25
