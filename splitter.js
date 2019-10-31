@@ -4,13 +4,13 @@ const csv = require('csv-parser');
 const { spawn } = require('child_process')
 const process = require('process');
 const videoNumber=process.argv[2];
-var basePath="/Volumes/tll/Local/Users/evannieuwenh/Hemmick_Lectures/";
+var basePath=`/Volumes/tll/Local/Users/evannieuwenh/${process.argv[3]}_Hemmick_Lectures/`;
 var SplitFolders =basePath+"SplitFolders";
 var SourceLectures =basePath+"SourceLectures";
 // var startTime = '00:02:20';
 // var endTime = '00:06:13';
 
-var csvName = `${videoNumber}.csv`
+var csvName = `csv/${process.argv[3]}/${videoNumber}.csv`
 var index = 0;
 var runFfmpeg=true;
 fs.createReadStream(csvName)

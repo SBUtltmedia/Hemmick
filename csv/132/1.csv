@@ -1,0 +1,5 @@
+Topic,Subtopic,Filename,recompress,Video Start Time,Video End Time
+Test Folder 1,SubtestFolder1,Title1,,0:00,15:12
+Test Folder 1,SubtestFolder2,Title2,,15:12,20:03
+Test Folder 2,SubtestFolder1,Title3,,20:03,33:40
+Test Folder 2,SubtestFolder2,Title4,,33:40,53:25
