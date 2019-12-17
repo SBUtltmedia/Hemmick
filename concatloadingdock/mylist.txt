@@ -1,2 +1,2 @@
-file '1Continuity Equations.mp4'
-file 'Continuity Equations.mp4'
+file '1Lecture Before Exam - Review (part a).mp4'
+file 'Gauss Law Review - Conductor-Insulator (part 2a).mp4'

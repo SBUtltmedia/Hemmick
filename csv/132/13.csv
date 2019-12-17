@@ -1,4 +1,8 @@
 Topic,Subtopic,Filename,recompress,Video Start Time,Video End Time
-Opening Videos,,Backyard Science - Insane Party Tricks,,0:00,0:36
-Midterm 1,,Lecture Before Exam - Review (part a),,8:07,8:52
-Midterm 1,,Review - Gauss Law (Conductor-Insulator),,13:42,LEFT OFF 24:46
+Opening Videos,,Backyard Science - Insane Party Tricks,true,0:00,0:36
+Midterm 1,Review,Lecture Before Exam - Review (part a),true,8:25,8:52
+Midterm 1,Review,Gauss Law Review - Conductor-Insulator (part 2a),true,13:42,16:59
+Midterm 1,Review,Gauss Law Review - Conductor-Insulator (part b),true,16:59,19:54.5
+Midterm 1,Review,Gauss Law Review - Conductor-Insulator (part c),true,19:55,30:25
+Midterm 1,Review,Gauss Law Review - Conductor-Insulator (part d),true,30:25,41:28
+Midterm 1,Review,Integrals Review - Partial Spherical Shell,true,45:03,52:44
