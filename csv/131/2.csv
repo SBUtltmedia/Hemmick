@@ -1,7 +1,10 @@
-Topic,Subtopic,Filename,Video Start Time,Video End Time
-Opening Videos,Opening Video,A Baffling Balloon Behavior (Lect. 2),0:00,2:17
-In-Person,Clickers,Clickers,2:17,8:45
-Syllabus Week,,Course Details 2,8:45,15:11
-Important Basics,Significant Digits,Should We Use Significant Digits?,15:54,30:19:00
+Topic,Subtopic,Filename,recompress,Video Start Time,Video End Time
+Opening Videos,Opening Video,A Baffling Balloon Behavior (Lect. 2),,0:00,2:17
+REMOVED,Clickers,Clickers,,2:17,8:45
+Syllabus Week,,More Administrivia,,8:45,15:11
+Important Basics,Significant Digits,Should We Use Significant Digits?,15:54,25:09
+Important Basics,Significant Digits,What To Do Instead of Sig Digs,,25:09,30:19
+Impartant Basics,Units,Using Units,,30:19,35:20
+LEFT OFF HERE
 Important Basics,Using Units,Units and Metric Unit Conversion,30:19:00,46:33:00
 Kinematics,Motion,Motion in 1 Dimension (intro),46:33:00,50:26:00
