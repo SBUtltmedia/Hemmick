@@ -1,2 +1,3 @@
-file 'Ampere.mp4'
-file 'Bmpere.mp4'
+file '1midterm2Non-graphingcalc.mp4'
+file '2Midterm2ExamGrading.mp4'
+file '3TestingCenterForm.mp4'
