@@ -1,7 +1,9 @@
-Topic,Subtopic,Filename,Video Start Time,Video End Time
-Opening Videos,,"""The World's Roundest Object"" (Lect. 4)",0:00,1:11
-Kinematics,Motion,Review of Questions and Well-Formed Info,7:08,23:33
-Kinematics,Motion,The Definition of Success,23:33,40:01
-Kinematics,Motion,The Pitfalls of Average Velocity,40:01,44:49
-Kinematics,Motion,Vectors and a 2D Coordinate System,44:49,53:52
-,,,,
+Topic,Subtopic,Filename,recompress,Video Start Time,Video End Time
+Opening Videos,,The World's Roundest Object (Lect. 4),,0:00,1:11
+Kinematics,1D Motion,1D Equations of Motion,,7:07,12:17
+Kinematics,1D Motion,Reviewing Well-Formed Questions,,12:17,23:32
+Kinematics,1D Motion,Definition of Success,,23:32,25:58
+Kinematics,1D Motion,A Definition of Success Problem,,25:58,31:41
+Kinematics,1D Motion,Solving the Definition of Success Problem,,31:41,40:01
+Kinematics,1D Motion,The Pitfalls of Average Velocity,,40:01,44:49
+Kinematics,2D Motion,Vectors and a 2D Coordinate System,,44:49,53:52
