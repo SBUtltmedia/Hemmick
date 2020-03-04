@@ -1,5 +1,11 @@
-Topic,Subtopic,Filename,Video Start Time,Video End Time
-Opening Videos,,Mind-Blowing Magic Magnets,0:00,2:00
+Topic,Subtopic,Filename,recompress,Video Start Time,Video End Time
+Opening Videos,,Mind-Blowing Magic Magnets,,0:00,2:00
+Kinematics,2D Motion,Throwing a Basketball,,2:00,11:18
+Kinematics,2D Motion,Basketball Equations of Motion,,11:18,22:14
+Kinematics,2D Motion,Slip and Fly Problem,,22:14,34:08
+Kinematics,2D Motion,Solving the Slip and Fly,,34:08,40:57
+Kinematics,2D Motion,Projectile Salmon,,40:57,
+
 Kinematics,Motion,Definition of Success for Projectile Motion,2:03,22:14
 Kinematics,Motion,Solving the Slip and Fly,22:14,40:57
 Kinematics,Motion,Projectile Salmon,40:57,53:00
