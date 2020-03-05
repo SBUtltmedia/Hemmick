@@ -1,4 +1,8 @@
-Topic,Subtopic,Filename,Video Start Time,Video End Time
-Opening Videos,,The Broom Riddle (Lect. 7),0:00,2:01
-Kinematics,Motion in 2D,The Alpha Romeo HW Problem,2:23,31:23
+Topic,Subtopic,Filename,recompress,Video Start Time,Video End Time
+Opening Videos,,The Broom Riddle (Lect. 7),,0:00,2:01
+Kinematics,2D Motion,The Alpha Romeo HW Problem,,2:01,13:37
+Kinematics,2D Motion,Alpha Romeo Equations of Motion,,13:37,20:37
+Kinematics,2D Motion,The Average Velocity Riddle,,20:37,31:26
+
+31:23
 Newtonian Physics,,Newton's Laws of Motion,31:29.91,49:59
