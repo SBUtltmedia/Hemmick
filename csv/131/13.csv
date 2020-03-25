@@ -1,5 +1,7 @@
 Topic,Subtopic,Filename,recompress,Video Start Time,Video End Time
-Exam Info,Midterm 1,More Exam Info for Midterm 1,,0:49,18:13
-Exam Info,Midterm 1,About Review Session for Midterm 1,,18:24,25:40
-Exam Info,Midterm 1,More Exam Info for Midterm 1 (Cont.),,25:54,31:59
-Newtonian Physics,,Newtonian Gravity,,31:58,53:02
+Exam Info,Midterm 1,Review of Midterm 1 Info,,0:49,13:12
+Exam Info,Midterm 1,Review of Remote Exam Info,,13:12,18:13
+Exam Info,Midterm 1,Online Review Session,,18:24,25:40
+Exam Info,Midterm 1,More About Midterm 1,,25:40,31:59
+Newtonian Physics,Newtonian Gravity,Newtonian Gravity,,31:59,39:47
+Newtonian Physics,Newtonian Gravity,Orbiting Problem,,39:47,52:51
