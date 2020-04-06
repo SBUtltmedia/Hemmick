@@ -1,10 +1,15 @@
 
 const fs = require('fs');
 const csv = require('csv-parser');
-const spawn = require('child_process')
+// This has been commented out
+// const spawn = require('child_process')
+// This has been added
+var spawn = require('child_process').spawn
+var child = spawn('pwd')
+// End of what has been added
 const process = require('process');
 const videoNumber=process.argv[2];
-var basePath=`/Volumes/tll/Local/Users/evannieuwenh/${process.argv[3]}_Hemmick_Lectures/`;
+var basePath=`/home/emmavn/Desktop/LectureVideos/${process.argv[3]}_Hemmick_Lectures/`;
 var SplitFolders =basePath+"SplitFolders";
 var SourceLectures =basePath+"SourceLectures";
 // var startTime = '00:02:20';
@@ -60,7 +65,7 @@ function makenewVideo(row) {
       } else {
         if (runFfmpeg){
         var outFile=  `${currentVideo}/${row['Filename']}.mp4`.replace(" ","\ ")
-        const ffmpeg = spawn('ffmpeg', ['-y','-i', `${SourceLectures}/${fileName}`,'-ss', `${startTimeSeconds}`, '-to', `${endTimeSeconds}`, recompress ,outFile]);
+        const ffmpeg = spawn('ffmpeg', ['-y','-i', `${SourceLectures}/${fileName}`,'-ss', `${startTimeSeconds}`, '-to', `${endTimeSeconds}`,...recompress ,outFile]);
         ffmpeg.stdout.on('data', (data) => {
         //  console.log(`stdout: ${data}`);
         });
