@@ -48,7 +48,7 @@ function makenewVideo(row) {
     var endTimeSeconds = toSeconds(row['Video End Time'])
     if(row['recompress']) {
       recompress =['-vcodec','libx264'];
-      console.log("recompressing", recompress)
+      console.log("recompressing",...recompress)
     }
 
 

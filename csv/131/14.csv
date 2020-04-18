@@ -1,6 +1,9 @@
-Topic,Subtopic,Filename,recompress,Video Start Time,Video End Time
-Opening Videos,,Camera Obscura in a Uhaul,,0:00,1:02
-Exam Info,Midterm 1,Again-Info on Midterm 1,,1:04,4:12
-Energy and Momentum,,Speeding Up and Slowing Down,,4:12,21:18
-Energy and Momentum,,Deriving Work,true,21:18,45:18.5
-Energy and Momentum,,Work in a Projectile Motion Problem,true,45:18.5,51:25
+Topic,Subtopic,Filename,Video Start Time,Video End Time
+Opening Videos,,Camera Obscura in a Uhaul,0:00,1:02
+Exam Info,Midterm 1,Again-Info on Midterm 1,1:04,4:12
+Energy and Momentum,Work,Speeding Up and Slowing Down,4:55,13:54
+Energy and Momentum,Work,Dot Products,13:54,21:18
+Energy and Momentum,Work,Force over Distance,21:18,29:54
+Energy and Momentum,Work,Cause and Effect,29:54,37:21
+Energy and Momentum,Work,Improving the Work Formula,37:20,45:18
+Energy and Momentum,Work,Work in a Projectile Motion Problem,45:18,51:25
