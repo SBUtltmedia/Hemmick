@@ -92,7 +92,10 @@ function makenewVideo(row) {
                 });
 
                 ffmpeg.on('close', (code) => {
-                    if (debug) console.log(`child process exited with code ${code}`);
+                    if (code != 0 || debug) {
+                      console.log("ERROR in script.");
+                      console.log(`child process exited with code ${code}`);
+                    }
                 });
             }
         }
