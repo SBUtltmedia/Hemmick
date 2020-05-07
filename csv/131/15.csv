@@ -1,7 +1,9 @@
-Topic,Subtopic,Filename,recompress,Video Start Time,Video End Time
-Opening Videos,,Feeling Temperature with a Haptic Glove,,0:00,1:02
-Exam Info,Midterm 1,1Post-Review Midterm Info,,1:18,2:32
-Exam Info,Midterm 1,2Post-Review Midterm Info,,3:41,8:22
-Energy and Momentum,,Using Work to Find Potential Energy,,8:22.0,30:03
-Energy and Momentum,,Conservative and Non-Conservative Work,,30:01,48:00
-Energy and Momentum,,Problem - Conservation of Energy at Different Moments,,48:01,51:45
+Topic,Subtopic,Filename,Video Start Time,Video End Time
+Opening Videos,,Feeling Temperature with a Haptic Glove,0:00,1:02
+Exam Info,Midterm 1,Post-Review Midterm Info,1:18,8:22
+Energy and Momentum,Work,What We've Learned So Far - Work,8:22,13:02
+Energy and Momentum,Work,Work Due to Gravity,13:02,21:30
+Energy and Momentum,Work,Work of a Spring,21:30,30:01
+Energy and Momentum,Work,Conservative and Non-Conservative Work,30:02,39:27
+Energy and Momentum,Work,Work vs. Change in Total Energy,39:27,48:00
+Energy and Momentum,Work,Problem - Conservation of Energy at Different Moments,48:01,51:45
