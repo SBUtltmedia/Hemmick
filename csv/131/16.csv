@@ -1,4 +1,6 @@
-Topic,Subtopic,Filename,recompress,Video Start Time,Video End Time
-Exam Info,Midterm 1,Day Before Midterm 1 Info,,0:51,11:19
-Review,Midterm 1,Banked Curve Review,,11:19,42:46
+Topic,Subtopic,Filename,Video Start Time,Video End Time
+Exam Info,Midterm 1,Day Before Midterm 1 Info,0:51,11:19
+Exam Info,Midterm 1 Review,Starting Banked Curve Problem,11:19,21:07
+Exam Info,Midterm 1 Review,Completing the Free-Body Diagram,21:07,31:38
+Exam Info,Midterm 1 Review,Constructing the Force Equations,31:38,42:46
 Review,Midterm 1,Atwood's Machine on a Ramp,,42:46,52:11
