@@ -2,6 +2,7 @@
 const fs = require('fs');
 const csv = require('csv-parser');
 const {
+
     spawn
 } = require('child_process');
 const process = require('process');
@@ -37,7 +38,7 @@ fs.createReadStream(csvName)
 
 /**
  * Take some time in and output the equivalent number of seconds.
- * 
+ *
  * @param {String} time in "mm:ss.dd" format
  * @returns {number} time in seconds
  */
@@ -52,8 +53,8 @@ function toSeconds(atime) {
 
 /**
  * Create new video based on a row of splitting data.
- * 
- * @param {Object} Row data from CSV  
+ *
+ * @param {Object} Row data from CSV
  */
 function makenewVideo(row) {
     // Video numbers should be padded (i.e. Lecture##.mp4)
@@ -81,7 +82,7 @@ function makenewVideo(row) {
         } else {
             // Have FFmpeg split videos.
             if (runFfmpeg) {
-                var outFile = `${currentVideo}/${row['Filename']}.mp4`.replace(" ", "\ ")
+                var outFile = `${currentVideo}/${row['Filename']}.mp4`.replace(" ", "\ ");
                 const ffmpeg = spawn('ffmpeg', ['-y', '-i', `${SourceLectures}/${fileName}`, '-ss', `${startTimeSeconds}`, '-to', `${endTimeSeconds}`, ...recompress, outFile]);
                 ffmpeg.stdout.on('data', (data) => {
                     //  console.log(`stdout: ${data}`);
