@@ -1,15 +1,10 @@
 
 const fs = require('fs');
 const csv = require('csv-parser');
-// This has been commented out
-// const spawn = require('child_process')
-// This has been added
-var spawn = require('child_process').spawn
-var child = spawn('pwd')
-// End of what has been added
+const { spawn } = require('child_process')
 const process = require('process');
 const videoNumber=process.argv[2];
-var basePath=`/home/emmavn/Desktop/LectureVideos/${process.argv[3]}_Hemmick_Lectures/`;
+var basePath=`/Volumes/tll/Local/Users/evannieuwenh/${process.argv[3]}_Hemmick_Lectures/`;
 var SplitFolders =basePath+"SplitFolders";
 var SourceLectures =basePath+"SourceLectures";
 // var startTime = '00:02:20';
@@ -41,7 +36,7 @@ var deciseconds =parseInt(atime.split(".")[1])||0;
 function makenewVideo(row) {
 
   fileName= `Lecture${videoNumber.padStart(2, '0')}.mp4`
-row['Topic'], row['Subtopic'],row['Filename'], row['Video Start Time'],  row['Video End Time']
+//row['Topic'], row['Subtopic'],row['Filename'], row['Video Start Time'],  row['Video End Time']
   console.log(row)
     var recompress=['-codec','copy'];;
     var startTimeSeconds = toSeconds(row['Video Start Time'])
