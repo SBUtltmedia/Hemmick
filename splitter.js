@@ -83,18 +83,18 @@ function makenewVideo(row) {
             // Have FFmpeg split videos.
             if (runFfmpeg) {
                 var outFile = `${currentVideo}/${row['Filename']}.mp4`.replace(" ", "\ ");
-                const ffmpeg = spawn('ffmpeg', ['-y', '-i', `${SourceLectures}/${fileName}`, '-ss', `${startTimeSeconds}`, '-to', `${endTimeSeconds}`, ...recompress, outFile]);
+                var loglevel = debug ? 'debug' : 'error';
+                const ffmpeg = spawn('ffmpeg', ['-y', '-i', `${SourceLectures}/${fileName}`, '-ss', `${startTimeSeconds}`, '-to', `${endTimeSeconds}`, ...recompress, outFile, '-loglevel', `${loglevel}`]);
                 ffmpeg.stdout.on('data', (data) => {
                     //  console.log(`stdout: ${data}`);
                 });
 
                 ffmpeg.stderr.on('data', (data) => {
-                    if (debug) console.log(`stderr: ${data}`);
+                    console.log(`stderr: ${data}`);
                 });
 
                 ffmpeg.on('close', (code) => {
                     if (code != 0 || debug) {
-                      console.log("ERROR in script.");
                       console.log(`child process exited with code ${code}`);
                     }
                 });
